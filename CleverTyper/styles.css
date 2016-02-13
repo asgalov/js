@@ -1,0 +1,43 @@
+#greeting {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  margin: 15px;
+}
+
+body {
+    font-family: Monospased;
+    background-color: White; 
+}
+
+span {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    padding: 4px;
+    margin: 1px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+span.tab {
+    width: 60px;
+}
+
+p {
+    margin: 2px;
+}
+
+div{
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
