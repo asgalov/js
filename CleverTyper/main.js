@@ -10,5 +10,9 @@ window.onload = function(){
 
 document.onkeypress = function(e){
   var keyCode = e.keyCode;
-  window.alert(keyCode);
+ // var key = document.getElementById(keyCode.toString());  
+  console.log(keyCode.toString()); 
+  var id = keyCode.toString(); 
+  var key = document.getElementById(id);  
+  key.style.background="yellow";
 };
